@@ -1,0 +1,22 @@
+@import "../../../../../../src/scss/variables";
+
+.facade_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #fafafa;
+
+  &__content {
+    width: 440px;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 30px;
+    font-size: 16px;
+    color: #757575;
+  }
+}

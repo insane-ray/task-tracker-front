@@ -1,0 +1,14 @@
+.form {
+  &__item {
+    width: 100%;
+  }
+
+  .form_action {
+    margin-top: 20px;
+
+    &__btn {
+      width: 100%;
+      padding: 4px 6px;
+    }
+  }
+}
