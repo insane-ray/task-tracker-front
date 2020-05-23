@@ -1,1 +1,28 @@
-<p>portal-layout works!</p>
+<div class="container_portal">
+  <div class="portal_nav">
+    <div class="navigation_menu"></div>
+    <div class="user_info"></div>
+    
+    <div class="portal_nav__logo">
+      <span class="material-icons">timeline</span>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a routerLink="board"><span class="material-icons">dashboard</span></a></li>
+        <li><a routerLink="users"><span class="material-icons">dashboard</span></a></li>
+        <li><a routerLink=""></a></li>
+        <li><a routerLink=""></a></li>
+        <li><a routerLink=""></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="portal_content">
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>
+
+

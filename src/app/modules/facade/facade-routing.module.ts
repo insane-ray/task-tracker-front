@@ -5,6 +5,11 @@ import { AuthComponent } from "./pages/auth/auth.component";
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'auth',
+    pathMatch: 'full'
+  },
+  {
     path: 'auth',
     //canActivate: [FacadeGuard],
     component: AuthComponent,

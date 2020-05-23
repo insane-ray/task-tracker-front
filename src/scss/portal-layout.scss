@@ -1,0 +1,13 @@
+body {
+  .portal_content,
+  .portal_nav {
+    min-height: 100vh;
+  }
+
+  .portal_nav {
+    width: 65px;
+    background: white;
+    box-shadow: 0 0 34px rgba(0, 0, 0, 0.045);
+    border-right: 1px solid $borderColor;
+  }
+}

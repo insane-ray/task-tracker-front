@@ -1,8 +1,7 @@
 <form class="form">
   <mat-form-field class="form__item" appearance="outline">
     <mat-label>Email</mat-label>
-    <input matInput formControl="emailFormControl" [errorStateMatcher]="matcher" type="email"
-           placeholder="example@example.com">
+    <input matInput formControl="emailFormControl" [errorStateMatcher]="matcher" type="email">
     <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
       Please enter a valid email address
     </mat-error>
@@ -13,8 +12,7 @@
 
   <mat-form-field class="form__item" appearance="outline">
     <mat-label>Password</mat-label>
-    <input matInput formControl="emailFormControl" [errorStateMatcher]="matcher" type="password"
-           placeholder="Enter password">
+    <input matInput formControl="emailFormControl" [errorStateMatcher]="matcher" type="password">
     <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
       Please enter a valid email address
     </mat-error>
